@@ -29,12 +29,6 @@
   display:flex;
   align-items: center;
 }
-
-
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 .logo {
   height: 32px;
   width: 228px;
@@ -258,9 +252,6 @@
   font-weight: 600;
   color: white;
 }
-.section-title_margin {
-  margin: 0 auto 20px;
-}
 .section-subtitle_theme_dark {
   /* border: 1px solid red; было создано в вспомогательных целях для наглядности границ блока */
   width:60%;
@@ -298,9 +289,6 @@ font-weight: 600;
 font-size: 18px;
 line-height: 1.2;
 font-weight: normal;
-}
-.table__text-margin {
-margin: 20px auto 0;
 }
 .kaufman__triangle {
   display:block;
@@ -372,6 +360,7 @@ margin: 20px auto 0;
   text-align: left;
 }
 .footer__column-link {
+  /* height: 10px; */
   text-decoration: none;
   text-align: left;
   margin: 0;
