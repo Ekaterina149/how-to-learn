@@ -310,6 +310,10 @@ color: white;
   padding:0;
   margin: 20px 0 16px 0;
   text-align: left;
+  text-decoration: none;
+}
+.footer__column-links li {
+  list-style: none;
 }
 .footer__column-link {
   text-decoration: none;
@@ -318,7 +322,6 @@ color: white;
   line-height: 30px;
   font-weight: normal;
   margin: 0;
-  list-style: none;
   color: white;
 }
 .footer__social-icon {
