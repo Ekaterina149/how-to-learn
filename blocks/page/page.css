@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Helvetica;
+  src: url('../../fonts/HelveticaNeueCyr-Light.woff2') format("woff2"), url('../../fonts/HelveticaNeueCyr-Light.woff') format("woff");
+}
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: Helvetica;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* Если удалить строчку над комментарием, то на веб-странице будет использован подключенный шрифт HelveticaNeueCyr
+  но он выглядел не как в брифе, не смотря на то, что был указан в задании практической работы №1, поэтому я не рискнула сдавать
+  работу с этим шрифтом.*/
+
+
+}

@@ -1,0 +1,8 @@
+.footer__column_content_copyright {
+
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  align-content: flex-start;
+  /* Используя данный класс придаем колонке с логотипом индивидуальные свойства */
+}

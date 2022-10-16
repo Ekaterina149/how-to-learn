@@ -1,0 +1,6 @@
+.section-title_theme_dark {
+  color: white;
+  z-index: 3;
+  /* Задаем z-index, чтобы заголовок оказался поверх треугольника */
+
+}

@@ -1,0 +1,7 @@
+.footer__column-links {
+  padding: 0;
+  margin: 20px 0 16px 0;
+  text-align: left;
+  list-style: none;
+  /* Строка свойства над этим комментарием удаляет маркеры из списка */
+}
