@@ -1,0 +1,10 @@
+.form__userdata {
+  margin: 40px auto 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: 'HelveticaNeueCyr';
+  color: white;
+  border: 0;
+}

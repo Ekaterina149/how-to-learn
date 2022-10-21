@@ -246,6 +246,47 @@
         </div>
 
       </section>
+      <form class="form" method="get">
+        <h2 class="section-subtitle section-subtitle_theme_dark">Оставьте Ваш комментарий</h2>
+        <fieldset class="form__userdata">
+          <label for="first-name" class="form__label-userdata">Имя</label>
+          <input class="form__item" type="text" id="first-name" name="first-name" placeholder="Иван" required>
+          <label for="surname" class="form__label-userdata">Фамилия</label>
+          <input class="form__item" type="text" id="surname" name="surname" placeholder="Иванов" required>
+        </fieldset>
+        <h2 class="section-subtitle section-subtitle_theme_dark">Как Вы оцениваете дизайн страницы?</h2>
+        <fielset class="form__main">
+          <label for="exellent" class="form__label">
+            <input class="form__item" type="radio" name="attitude" id="exellent" value="exellent" checked>
+            <span class="form__label-text">Отлично</span>
+
+          </label>
+          <label for="good" class="form__label">
+            <input class="form__item" type="radio" name="attitude" id="good" value="good">
+            <span class="form__label-text">Хорошо</span>
+          </label>
+          <label for="satisfying" class="form__label">
+            <input class="form__item" type="radio" name="attitude" id="satisfying" value="satisfying">
+            <span class="form__label-text">Средне</span>
+          </label>
+          <label for="bad" class="form__label">
+            <input class="form__item" type="radio" name="attitude" id="bad" value="bad">
+            <span class="form__label-text">Плохо</span>
+          </label>
+
+        </fielset>
+        <fielset class="form__text">
+          <h2 class="section-subtitle">Ваш текстовый комментарий</h2>
+          <label for="main-text" class="form__label">
+            <textarea class="form__textitem" id="main-text" name="main-text"
+            placeholder="Все замечательно!"></textarea>
+          </label>
+        </fielset>
+        <fieldset class="form__handlers">
+          <input class="form__button" type="submit">
+          <input class="form__button" type="reset">
+        </fieldset>
+      </form>
 
     </main>
     <footer class="footer">

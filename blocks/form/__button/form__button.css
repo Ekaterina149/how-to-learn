@@ -1,0 +1,18 @@
+
+.form__button {
+  margin: 20px 40px;
+  color: #1f1f1f;
+  background-color: white;
+  min-width: 150px;
+  width: 10%;
+  height: 50px;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  opacity: 0.8;
+  border: 2px dotted #1f1f1f;
+}

@@ -1,0 +1,55 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.form__item::-webkit-input-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+}
+.form__item::-moz-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+}
+.form__item:-ms-input-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+}
+.form__item::-ms-input-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+}
+.form__item::placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+}
+.form__item:hover {
+  border: 2px dotted #1f1f1f;
+}
+
+.form__item:focus {
+  outline-color: rgb(186, 155, 155);
+}
+.form__item[type=radio] {
+  display: block;
+
+
+}

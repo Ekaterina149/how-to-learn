@@ -1,0 +1,58 @@
+.form__textitem {
+  min-width: 700px;
+  margin: 20px auto;
+  padding: 15px 10px 10px;
+  height: 300px;
+  color: #1f1f1f;
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+
+}
+.form__textitem:focus {
+  outline-color: rgb(186, 155, 155);
+}
+.form__textitem:hover {
+  border: 2px dotted #1f1f1f;
+}
+
+.form__textitem::-webkit-input-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+  text-align: center;
+}
+.form__textitem::-moz-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+  text-align: center;
+}
+.form__textitem:-ms-input-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+  text-align: center;
+}
+.form__textitem::-ms-input-placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+  text-align: center;
+}
+.form__textitem::placeholder {
+  font-family: 'HelveticaNeueCyr';
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #515155;
+  text-align: center;
+}

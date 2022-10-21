@@ -1,0 +1,10 @@
+
+.form__main {
+  display: block;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'HelveticaNeueCyr';
+}

@@ -1,0 +1,11 @@
+.form__label {
+
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: normal;
+
+}
